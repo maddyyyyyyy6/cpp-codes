@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     int fin;
-    cout << "Enter Number to find: bet 0 to 10 " << endl;
+    cout << "Enter Number to find: between 0 to 19 " << endl;
     cin >> fin;
 
     int a[15] = {3, 4, 5, 6, 7, 8, 9, 10, 12, 14, 15, 16, 17, 18, 19};
