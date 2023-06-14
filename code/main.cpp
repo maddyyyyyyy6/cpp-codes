@@ -16,6 +16,14 @@ int main()
 
     // to find 7;
     // check if right or left of mdin
+    // right -> its bigger
+    // left -> its smaller
+
+    if (fin > 19)
+    {
+        cout << "Out of Bound.";
+        exit(0);
+    }
     for (int i = 0; i < len; i++)
     {
         if (fin == a[mdin])
@@ -42,10 +50,12 @@ int main()
 
                 stin = mdin + 1;
                 mdin = (stin + edin) / 2;
+            }
         }
         else
         {
             cout << "Not Found!";
+            break;
         }
     }
 
