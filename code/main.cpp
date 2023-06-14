@@ -11,7 +11,7 @@ int main()
     cout << "Finding No." << fin << endl;
     int len = *(&a + 1) - a;
     int stin = 0;
-    int edin = len;
+    int edin = len - 1;
     int mdin = stin + edin / 2;
 
     // to find 7;
