@@ -40,8 +40,8 @@ int main()
                 //      << " st: " << stin << " edin: " << edin << endl;
                 cout << "Number: " << fin << " is greater than " << a[mdin] << endl;
 
-            stin = mdin + 1;
-            mdin = (stin + edin) / 2;
+                stin = mdin + 1;
+                mdin = (stin + edin) / 2;
         }
         else
         {
