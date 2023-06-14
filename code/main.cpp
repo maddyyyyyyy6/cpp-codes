@@ -23,19 +23,22 @@ int main()
             cout << "Found: " << fin << " at index -> " << mdin << endl;
             break;
         }
-        else if (fin < a[mdin])
+        else if (stin < edin)
         {
-            // cout << "It is Smaller "
-            //      << " st: " << stin << " edin: " << edin << endl;
-            cout << "Number: " << fin << " is less than " << a[mdin] << endl;
-            edin = mdin - 1;
-            mdin = (stin + edin) / 2;
-        }
-        else if (fin > a[mdin])
-        {
-            // cout << "It is Bigger "
-            //      << " st: " << stin << " edin: " << edin << endl;
-            cout << "Number: " << fin << " is greater than " << a[mdin] << endl;
+
+            if (fin < a[mdin])
+            {
+                // cout << "It is Smaller "
+                //      << " st: " << stin << " edin: " << edin << endl;
+                cout << "Number: " << fin << " is less than " << a[mdin] << endl;
+                edin = mdin - 1;
+                mdin = (stin + edin) / 2;
+            }
+            else if (fin > a[mdin])
+            {
+                // cout << "It is Bigger "
+                //      << " st: " << stin << " edin: " << edin << endl;
+                cout << "Number: " << fin << " is greater than " << a[mdin] << endl;
 
             stin = mdin + 1;
             mdin = (stin + edin) / 2;
