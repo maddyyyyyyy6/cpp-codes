@@ -9,6 +9,7 @@ int main()
     cout << "Enter till value : ";
     cin >> till;
 
+// add while for a limit of fibo
     for (int i = 1; i < 20; i++)
     {
         if (i == 1)
