@@ -7,7 +7,7 @@ int main()
     // take a limit value
     int till;
     cout << "Enter till value : ";
-    
+    cin >> till;
 
     for (int i = 1; i < 20; i++)
     {
