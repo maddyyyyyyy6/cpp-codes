@@ -6,6 +6,7 @@ int main()
     int t1 = 0, t2 = 1, nextTerm = 0;
     // take a limit value
     int till;
+    cout << "Enter till value : ";
     
 
     for (int i = 1; i < 20; i++)
