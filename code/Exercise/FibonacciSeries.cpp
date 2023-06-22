@@ -3,20 +3,21 @@ using namespace std;
 
 int main()
 {
-    int t1 = 0, t2 = 1, nextTerm = 1;
+    int t1 = 0, t2 = 1, nextTerm = 0;
     // take a limit value
     int till;
     cout << "Enter till value : ";
     cin >> till;
 
     // add while for a limit of fibo
-    while (nextTerm < till)
+    // cout << "Fibonacci Series: " << t1 << " " << t2 << " ";
+    while (nextTerm <= till)
     {
 
-        nextTerm = t1 + t2;
+        cout << nextTerm << " ";
         t1 = t2;
         t2 = nextTerm;
-        cout << nextTerm << " ";
+        nextTerm = t1 + t2;
     }
     // for (int i = 1; i < 20; i++)
     // {
