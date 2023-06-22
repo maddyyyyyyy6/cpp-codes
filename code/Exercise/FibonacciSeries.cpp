@@ -3,30 +3,38 @@ using namespace std;
 
 int main()
 {
-    int t1 = 0, t2 = 1, nextTerm = 0;
+    int t1 = 0, t2 = 1, nextTerm = 1;
     // take a limit value
     int till;
     cout << "Enter till value : ";
     cin >> till;
 
-// add while for a limit of fibo
-    for (int i = 1; i < 20; i++)
+    // add while for a limit of fibo
+    while (nextTerm < till)
     {
-        if (i == 1)
-        {
-            cout << t1 << " ";
-            continue;
-        }
-        else if (i == 2)
-        {
-            cout << t2 << " ";
-            continue;
-        }
 
         nextTerm = t1 + t2;
         t1 = t2;
         t2 = nextTerm;
         cout << nextTerm << " ";
     }
+    // for (int i = 1; i < 20; i++)
+    // {
+    //     if (i == 1)
+    //     {
+    //         cout << t1 << " ";
+    //         continue;
+    //     }
+    //     else if (i == 2)
+    //     {
+    //         cout << t2 << " ";
+    //         continue;
+    //     }
+
+    //     nextTerm = t1 + t2;
+    //     t1 = t2;
+    //     t2 = nextTerm;
+    //     cout << nextTerm << " ";
+    // }
     return 0;
 }
