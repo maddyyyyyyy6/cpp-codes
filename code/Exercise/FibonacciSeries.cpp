@@ -18,6 +18,7 @@ int main()
         t1 = t2;
         t2 = nextTerm;
         nextTerm = t1 + t2;
+        
     }
     // for (int i = 1; i < 20; i++)
     // {
