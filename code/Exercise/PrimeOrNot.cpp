@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    bool isPrime = false;
+    bool isPrime = true;
     int n;
     cout << "Enter a Positive Number: ";
     cin >> n;
@@ -15,16 +15,19 @@ int main()
     }
     for (int i = 2; i < n; i++)
     {
-        if(i==n) {
-            
-        }
-        if (i % n == 1)
+        if (n % i == 0)
         {
-            isPrime = true;
+            // cout << i << " this is a prime number: ";
+            isPrime = false;
             break;
         }
+        else
+        {
+            // cout << i << " not a prime number:";
+        }
+        // cout << (n % i) << endl;
     }
 
-    isPrime ? cout << "It is a prime number:" : cout << "Not a Prime Number: ";
+    isPrime ? cout << n << " is a prime number: " << endl : cout << n << " Not a Prime Number: " << endl;
     return 0;
 }
