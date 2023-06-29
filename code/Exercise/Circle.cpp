@@ -4,8 +4,8 @@ using namespace std;
 class Circle
 {
 private:
-    int radius;
-    int area;
+    float radius;
+    float area;
     const float pi = 3.14;
 
 public:
@@ -21,7 +21,7 @@ public:
              << endl
              << endl;
     }
-    int getSquare(int r)
+    int getSquare(float r)
     {
         return r * r;
     }
