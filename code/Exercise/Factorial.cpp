@@ -3,16 +3,17 @@ using namespace std;
 
 int main()
 {
-    int factorial, result = 0;
+    int n, last = 1, current = 2, result = 0;
     cout << "Factorial: ";
-    cout << "Enter a value to factorial of it: ";
-    cin >> factorial;
+    cout << "Enter a positive integer: ";
+    cin >> n;
+    // 1 2 3
 
-    for (int i = 1; i <= factorial; i++)
+    for (int i = n - 1; i >= 1; i--)
     {
 
-        result = result + (i * i - 1);
+        n = n * i;
     }
-    cout << result;
+    cout << n << endl;
     return 0;
 }
