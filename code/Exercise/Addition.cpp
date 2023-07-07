@@ -4,6 +4,7 @@ using namespace std;
 int main()
 {
   addition();
+  
   return 0;
 }
 
@@ -18,4 +19,17 @@ void addition()
   c = a +b;
   cout << "Addition of "<< a << " and " << b<< " is " << c;
 }
+
+void substraction()
+{
+  float a,b,c;
+  cout << "Enter the value for first number: ";
+  cin >> a;
+  cout << "Enter the value for second number: ";
+  cin >> b;
+
+  c = a  - b;
+  cout << "Substraction of "<< a << " and " << b<< " is " << c;
+}
+
   
