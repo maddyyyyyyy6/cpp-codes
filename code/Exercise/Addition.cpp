@@ -3,6 +3,12 @@ using namespace std;
 
 int main()
 {
+  addition();
+  return 0;
+}
+
+void addition()
+{
   float a,b,c;
   cout << "Enter the value for first number: ";
   cin >> a;
@@ -11,5 +17,5 @@ int main()
 
   c = a +b;
   cout << "Addition of "<< a << " and " << b<< " is " << c;
-  return 0;
 }
+  
