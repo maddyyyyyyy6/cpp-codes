@@ -31,6 +31,9 @@ void substraction()
   c = a  - b;
   cout << "Substraction of "<< a << " and " << b<< " is " << c;
 }
-void mulitiplication();
+void mulitiplication()
+{
+  float a , b , c;
+}
 
   
