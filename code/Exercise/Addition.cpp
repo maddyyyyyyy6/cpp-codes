@@ -43,4 +43,16 @@ void mulitiplication()
   cout << "Multiplication of "<< a << " and " << b<< " is " << c;
 }
 
+void division()
+{
+  float a , b , c;
+  cout << "Enter the value for first number: ";
+  cin >> a;
+  cout << "Enter the value for second number: ";
+  cin >> b;
+
+  c = a / b;
+  cout << "Division of "<< a << " and " << b<< " is " << c;
+}
+
   
