@@ -4,6 +4,14 @@ using namespace std;
 int main()
 {
   addition();
+  cout << "Simple Calculator - maddyCoder";
+  cout << "Select operator: \n";
+  cout << "1. +\n";
+  cout << "2. -\n";
+  cout << "3. *\n";
+  cout << "4. /\n";
+  cout << "";
+  
   
   return 0;
 }
