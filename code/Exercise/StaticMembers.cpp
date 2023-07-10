@@ -1,1 +1,1 @@
-static
+class Student
