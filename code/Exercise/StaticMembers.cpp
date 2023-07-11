@@ -14,6 +14,7 @@ class Student
         {
             roll_no = rn;
             dateofbirth = dob;
+            updateCount();
 
         }
         static void updateCount()
