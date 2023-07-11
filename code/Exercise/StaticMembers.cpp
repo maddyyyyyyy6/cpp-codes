@@ -25,4 +25,4 @@ class Student
             cout << "Total No. of Students Objects is: " << count;
         }
 
-}
+};
