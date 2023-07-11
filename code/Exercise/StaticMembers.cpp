@@ -26,3 +26,9 @@ class Student
         }
 
 };
+
+int main()
+{
+    cout << "This is the main function";
+    return 0;
+}
