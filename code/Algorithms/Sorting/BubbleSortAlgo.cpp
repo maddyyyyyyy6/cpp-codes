@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+\\ sorting algo by Mahendra suthar
 int main()
 {
     // bubble sort - sorting the elements of a array in a ascending order
