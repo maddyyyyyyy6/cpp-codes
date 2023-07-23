@@ -1,0 +1,32 @@
+1. Write a program in C++, to find max of two numbers using if else control
+structure.
+2. Write a program in C++, to find maximum and minimum of two numbers
+using conditional operator.
+3 Write a program in C++, to find if the given year is leap year or not using if
+else control structure.
+4. Write a program in C++, to find factorial of a given number using for loop.
+5. Write a program in C++, to print the sum of first 100 natural numbers using
+for control structure .
+6. Write a program in C++, to print first 15 terms of Fibonacci series.
+7. Write a program in C++, to read array of 10 elements and print its sum.
+8. Write a program in C++, to find factorial of a given number using function
+void fact (int).
+9. Write an Object Oriented Program in C++, to implement inventory class to
+calculate total price of number of items purchased.
+10.Write an Object Oriented Program in C++, to find the GCD of two given
+numbers.
+11.Implement a class fact, to find the factorial of a given number.
+12.Write an Object Oriented Program in C++, to implement circle class to find
+area and circumference of a circle using functions void area(), void circum().
+13.Write a program in C++ to find the no of occurrences of character ‘a’ in the
+given string.
+14.Write a Program in C++, to reverse a given string. .
+15.Implement class temperature to convert degree Fahrenheit (F) to degree
+Celsius (C).Using formulae C =( F -32/9)*5. .
+16.Write a program in C++, to find the largest number in an array of 10 integers.
+17.Write a program in C++, to check if the given number is a prime number.
+18.Write a program in C++, to calculate xy , using the function void power (int,
+int).
+19.Write a program in C++, to count the number of words in a line of text.
+20.Write a program in C++, to swap two integers using function void swap (int
+&, int&).
