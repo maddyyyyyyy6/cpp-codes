@@ -13,7 +13,7 @@ class Circle
         void getRadius()
         {
             cout << "Enter value for radius: ";
-            
+            cin >> radius;
         }
 }
 int main()
