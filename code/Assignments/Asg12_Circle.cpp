@@ -24,6 +24,10 @@ public:
     {
         return 2 * pi * radius;
     }
+    float getDiameter()
+    {
+        
+    }
 } int main()
 {
 }
