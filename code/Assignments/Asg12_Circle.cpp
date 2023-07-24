@@ -10,6 +10,7 @@ class Circle
         int circumference;
         int diameter;
     public:
+        void getRadius()
 }
 int main()
 {
