@@ -28,6 +28,7 @@ public:
 
 int main()
 {
-    int get input from user
+    Factorial fact;
+    // fact.getFactorial(10);
     return 0;
 }
