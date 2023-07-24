@@ -29,5 +29,6 @@ public:
 int
 main()
 {
+    int get input from user
     return 0;
 }
