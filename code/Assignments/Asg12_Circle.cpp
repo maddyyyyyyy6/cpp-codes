@@ -9,7 +9,7 @@ class Circle
         int radius;
         int circumference;
         int diameter;
-        
+    public:
 }
 int main()
 {
