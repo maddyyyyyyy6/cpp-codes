@@ -29,6 +29,6 @@ public:
 int main()
 {
     Factorial fact;
-    // fact.getFactorial(10);
+    fact.getFactorial(10);
     return 0;
 }
