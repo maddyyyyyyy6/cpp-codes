@@ -30,5 +30,6 @@ int main()
 {
     Factorial fact;
     fact.getFactorial(10);
+    fact.getFactorial(5);
     return 0;
 }
