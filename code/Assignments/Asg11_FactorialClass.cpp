@@ -26,8 +26,7 @@ public:
 
 }
 
-int
-main()
+int main()
 {
     int get input from user
     return 0;
