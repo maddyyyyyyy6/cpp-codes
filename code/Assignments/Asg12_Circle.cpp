@@ -5,17 +5,17 @@ class Circle
 {
     private:
         float pi = 3.14;
-        int area;
-        int radius;
-        int circumference;
-        int diameter;
+        float area;
+        float radius;
+        float circumference;
+        float diameter;
     public:
         void getRadius()
         {
             cout << "Enter value for radius: ";
             cin >> radius;
         }
-        void getArea()
+        float getArea()
         {
             return pi * radius*radius;
         }
