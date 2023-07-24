@@ -19,7 +19,7 @@ class Factorial
 
             for(int i = t-1;i>= 1; i--)
             {
-                
+                t1 = t2;
             }
         }
 
