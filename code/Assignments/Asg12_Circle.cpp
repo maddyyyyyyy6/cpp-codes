@@ -11,6 +11,10 @@ class Circle
         int diameter;
     public:
         void getRadius()
+        {
+            cout << "Enter value for radius: ";
+            
+        }
 }
 int main()
 {
