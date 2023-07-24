@@ -9,8 +9,7 @@ private:
 public:
     void display()
     {
-        //
-        this is a function
+        //        this is a function
     }
 
     void getFactorial(int n)
