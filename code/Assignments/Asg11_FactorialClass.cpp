@@ -8,7 +8,7 @@ class Factorial
     public:
         void display()
         {
-            return null;
+            // this is a function
         }
 
 }
