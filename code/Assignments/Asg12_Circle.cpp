@@ -26,8 +26,24 @@ public:
     }
     float getDiameter()
     {
-        
+        return diameter = 2 * radius;
+    }
+
+    void area()
+    {
+        area = pi * radius * radius;
+        cout << "Area of the circle with radius: " << radius << " is " << area;
+    }
+    void circum()
+    {
+        circumference = 2 * pi * radius;
+        cout << "Circumference of the circle with radius: " << radius << " is " << circumference;
     }
 } int main()
 {
+    Circle c;
+    c.getRadius(20);
+    c.area();
+    c.circum();
+    return 0;
 }
