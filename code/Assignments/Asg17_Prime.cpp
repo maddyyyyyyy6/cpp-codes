@@ -8,13 +8,15 @@ int main()
     bool isPrime = true;
     for (int i = 2; i < n; i++)
     {
-        if (i % n == 0)
+        cout << "checking for i: " << i << " with " << n << " remainder is: " << n % i << endl;
+        if (n % i == 0)
         {
             isPrime = false;
             break;
         }
     }
 
-    cout << "is Prime " << isPrime << endl;
+    cout << "is Prime ";
+    isPrime ? cout << "Yes" << endl : cout << "No" << endl;
     return 0;
 }
