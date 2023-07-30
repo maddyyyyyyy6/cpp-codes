@@ -8,13 +8,13 @@ class GCD
     public:
         void getValues()
         {
-            cout << "Enter the value of two Numbers: ":
+            cout << "Enter the value of two Numbers: ";
             cin >> x >> y;
         }
         void getGCD()
         {
 			
-            n = (x < y) ? x : y;
+            int n = (x < y) ? x : y;
             for (int i = 2; i <= n; i++)
             {
                 if (x % i == 0 && y % i == 0)
@@ -27,14 +27,14 @@ class GCD
 					// do nothing
                 }
             }
-			cout << "GCD of" << x << " and " << y << " is "<< gcd;
+			cout << "GCD of " << x << " and " << y << " is "<< gcd;
 		}
-}
+};
             
 
 int main()
 {
-    GCD g;
+    	GCD g;
 	g.getValues();
 	g.getGCD();
 
