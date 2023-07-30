@@ -18,7 +18,7 @@ public:
 
         for (int i = t - 1; i >= 1; i--)
         {
-            n = n * i;
+            t = t * i;
         }
 
         cout << t << endl;
