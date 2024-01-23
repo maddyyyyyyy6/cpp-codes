@@ -61,6 +61,7 @@ void singleIntegerTab()
     << "        3. Positive or Negative\n"
     << "        4. z-Summetion\n"
     << "        5. Factorial\n"
+    << "        6. Twice Adding\n"
     << "        More on the go ->\n"
     << "        Select from the above:\n"
     << endl;
@@ -112,6 +113,17 @@ void singleIntegerTab()
             }
             cout << "The factorial is: "<< factorial;
             break;
+        }
+        case 6:
+        {
+            int sum= 1;
+            for(int i =1;i<value;i++)
+            {
+                sum = sum * 2;
+            }
+            cout << "Twice Adding value will be: "<< sum;
+            break;
+
         }
         default:
             cout << INVALID_INPUT;
@@ -208,6 +220,7 @@ void listIntegerOperations()
             }
             break;
         }
+        
         default:
         {
             cout << "Invalid option!";
