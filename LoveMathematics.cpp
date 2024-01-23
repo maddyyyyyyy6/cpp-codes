@@ -129,9 +129,8 @@ void listIntegerOperations()
     cout << "Fill the list with 10 integers: \n";
     for(int i = 0;i<lenlist;i++)
     {
-        cin>> list[i];
+        cin >> list[i];
     }
-
     cout<<"Below are the available Operations over a list of Integers:\n "
     << "1.Maximum\n"
     << "2.Minumum\n"
@@ -140,7 +139,6 @@ void listIntegerOperations()
     << "5.Primes\n" ;
     cout << "make your choice: \n";
     cin>> option;
-
     switch(option)
     {
         case 1:
@@ -188,7 +186,7 @@ void listIntegerOperations()
             {
                 sum = sum +list[i];
             }
-            cout << "Summetion of the list is: "<< sum;
+            cout << "Z of the list is: "<< sum;
             break;
         }
         case 5:
